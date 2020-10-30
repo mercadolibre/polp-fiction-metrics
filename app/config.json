@@ -1,0 +1,70 @@
+{
+"local": {
+   "mysql":{
+        "host":"localhost",
+        "user":"polpuser",
+        "passwd":"polpsecret",
+        "db":"polpdb",
+        "port":"3308"
+    },
+    "blacklist" : "",
+    "iam":{
+        "polp-role": "",
+        "polp-organization-role" : "",
+        "polp-master-account" : "",
+        "aws_access_key_id" : "",
+        "aws_secret_access_key": ""
+    }
+    },
+ "jobs": {
+    "mysql":{
+        "host":"",
+        "user":"",
+        "passwd":"",
+        "db":"",
+        "port":""
+        },
+    "blacklist" : "",
+    "iam":{
+        "polp-role": "",
+        "polp-organization-role" : "",
+        "polp-master-account" : "",
+		"aws_access_key_id" : "",
+		"aws_secret_access_key": ""
+        }    
+    },
+"test": {
+    "mysql":{
+        "host":"mysql_test_host",
+        "user":"mysql_test_user",
+        "passwd":"mysql_test_passs",
+        "db":"mysql_test_db_name",
+        "port":"3306"
+        },
+    "blacklist" : "",
+    "iam":{
+        "polp-role": "",
+        "polp-organization-role" : "",
+        "polp-master-account" : "",
+        "aws_access_key_id" : "",
+        "aws_secret_access_key": ""
+        }    
+},
+"single-account": {
+    "mysql":{
+        "host":"localhost",
+        "user":"polpuser",
+        "passwd":"polpsecret",
+        "db":"polpdb",
+        "port":"3308"
+        },
+    "blacklist" : "",
+    "iam":{
+        "polp-role": "",
+        "polp-organization-role" : "",
+        "polp-master-account" : "",
+        "aws_access_key_id" : "",
+        "aws_secret_access_key": ""
+        }    
+    }
+}

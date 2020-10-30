@@ -1,0 +1,10 @@
+apiVersion: 1
+
+datasources:
+- name: POLPDB
+  type: mysql
+  access: proxy
+  url: polp_mysql:3306
+  password: polpsecret
+  user: polpuser
+  database: polpdb
