@@ -74,7 +74,7 @@ Polp Fiction has it's own *cli* to make testing and development more easy. Once 
 *For further development there's an [ERD](docs/assets/ERD.png) that aims to describe the SQL datbase structure use in Polp Fiction*
 
 ## 🥢 Endpoints
-For the moment Polp Fiction only have 2 endpoint meant for jobs `[POST]  -  /v1/job/account`  which will populate the accounts and `[POST] /v1/job/populate` which will populeta the rest of data based on the accounts. 
+For the moment Polp Fiction only have 2 endpoint meant for jobs `[POST]  -  /v1/job/account`  which will populate the accounts and `[POST] /v1/job/populate` which will populate the rest of data based on the accounts. 
 
 ```shell
 $> curl -X POST http://localhost:5000/v1/job/account
