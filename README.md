@@ -80,7 +80,7 @@ For the moment Polp Fiction only have 2 endpoint meant for jobs `[POST]  -  /v1/
 $> curl -X POST http://localhost:5000/v1/job/account
 $> curl -X POST http://localhost:5000/v1/job/populate
 ```
-Note: If you are running polp on **single-account** mode please bare in mind that the `v1/job/account` endpoint will not be availble, instead the only account to be scanned is the master account.
+Note: If you are running polp on **single-account** mode please bear in mind that the `v1/job/account` endpoint will not be availble, instead the only account to be scanned is the master account.
 ## 📊 Metrics
 
 Polp Fiction uses [Grafana](https://grafana.com/) in order to display the information gathered. We have made several dashboards that makes focus on different aspect we wanted to highlight.
@@ -88,7 +88,7 @@ To get you Grafana up and running with all of these dashboards just run the foll
 ```shell
 (venv) $> polp grafana
 ```
-*Bare in mind that the database should be running by the time you decide to run Grafana. If there's any problem connecting Grafana to the db, run `polp clean` to clear Docker containers and networks*
+*Bear in mind that the database should be running by the time you decide to run Grafana. If there's any problem connecting Grafana to the db, run `polp clean` to clear Docker containers and networks*
 
 ### Metrics included
 
