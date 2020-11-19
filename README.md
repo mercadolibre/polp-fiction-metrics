@@ -13,7 +13,7 @@ Its main objective is to show a clear vision on how the business is in terms of 
 Ensure that you have Python 3.6 or later.
 
 ```
-git clone git@github.com:mercadolibre/polp-fiction.git polp-fiction
+git clone git@github.com:mercadolibre/polp-fiction-metrics.git polp-fiction
 cd polp-fiction
 python3 -m venv venv
 source venv/bin/activate
