@@ -5,7 +5,7 @@
 [![Discord chat](https://img.shields.io/discord/766764625269096469?logo=discord)](https://discord.gg/y3hBp7bwsy) ![python 3.8](https://img.shields.io/badge/python-v3.8-blue) [![Maintained by mercadolibre.com](https://img.shields.io/badge/Mantained%20by-Mercadolibre-FFE600)](https://mercadolibre.com)
 
 ## Abstract
-Polp Fiction is an in-house tool developed at [Mercadolibre](https://www.mercadolibre.com.ar/) that aims expose metrics of the current situation regarding privileges based on identities and access on AWS in order to implement the [PoLP](https://en.wikipedia.org/wiki/Principle_of_least_privilege) principle.
+Polp Fiction is an in-house tool developed at [Mercadolibre](https://www.mercadolibre.com.ar/) that aims to expose metrics of the current situation regarding privileges based on identities and access on AWS in order to implement the [PoLP](https://en.wikipedia.org/wiki/Principle_of_least_privilege) principle.
 ## 🎯 Goal
 Its main objective is to show a clear vision on how the business is in terms of Users, Roles and API privileges in the cloud, centralize all this data in a single query point where specific information can be obtained to make strategic decisions that can improve the access management security between all our different identities across and within accounts.
 
